@@ -71,8 +71,8 @@ def aadhaar_read_data(text,side):
         gender = "FEMALE"
     elif 'male' in text.lower():
         gender = "MALE"
-    elif 'transgender' in text.lower():
-        gender = "TRANSGENDER"
+    else:
+        gender = "OTHER"
     
     
     try:
