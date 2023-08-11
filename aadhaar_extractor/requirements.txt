@@ -1,0 +1,4 @@
+opencv-contrib-python==4.5.5.62
+Pillow==9.5.0
+easyocr==1.6.2
+pytesseract==0.3.10
